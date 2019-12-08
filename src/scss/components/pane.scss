@@ -1,0 +1,15 @@
+.pane {
+    padding: $p16;
+
+    &.pane--gray {
+        background-color: $color-gray;
+    }
+
+    &.pane--primary {
+        background-color: $color-primary;
+    }
+
+    &.pane--secondary {
+        background-color: $color-secondary;
+    }
+}

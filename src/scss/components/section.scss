@@ -1,0 +1,11 @@
+.section {
+    padding: 0 $p16;
+
+    & + & {
+        padding-top: $p32;
+    }
+
+    @include media-xl-up {
+        padding: 0;
+    }
+}

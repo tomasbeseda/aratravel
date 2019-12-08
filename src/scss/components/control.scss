@@ -1,0 +1,18 @@
+.control {
+    .control__input {
+        display: inline-block;
+        padding: $p8 $p16;
+        box-sizing: border-box;
+        background-color: $color-white;
+        color: $color-primary;
+        border-radius: $border-radius;
+        border: 1px solid $color-basic-border;
+        font-size: $font-default-size;
+        line-height: $font-default-line;
+
+        &.control__input--block {
+            display: block;
+            width: 100%;
+        }
+    }
+}

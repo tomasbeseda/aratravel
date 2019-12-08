@@ -1,0 +1,74 @@
+.icon {
+    display: inline-block;
+    width: 35px;
+    height: 25px;
+    text-align: center;
+
+    &.icon--60 {
+        width: 60px;
+        height: 60px;
+    }
+
+    .icon__image {
+        height: 100%;
+    }
+
+    &.icon--plus {
+        position: relative;
+        width: 20px;
+        height: 5px;
+        background-color: $color-fill-black;
+
+        &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 20px;
+            height: 5px;
+            background-color: inherit;
+            transform: rotate(90deg);
+        }
+    }
+
+    &.icon--minus {
+        position: relative;
+        width: 20px;
+        height: 5px;
+        background-color: $color-fill-black;
+    }
+
+    &.icon--star {
+        position: relative;
+        display: inline-block;
+        width: 0;
+        height: 0;
+        margin-left: 0.9em;
+        margin-right: 0.9em;
+        margin-bottom: 1.2em;
+        border-right: 0.3em solid transparent;
+        border-bottom: 0.7em solid $color-yellow;
+        border-left: 0.3em solid transparent;
+        /* Controlls the size of the stars. */
+        font-size: 16px;
+
+        &:after,
+        &:before {
+            content: '';
+            display: block;
+            width: 0;
+            height: 0;
+            position: absolute;
+            top: 0.6em;
+            left: -1em;
+            border-right: 1em solid transparent;
+            border-bottom: 0.7em solid $color-yellow;
+            border-left: 1em solid transparent;
+            transform: rotate(-35deg);
+        }
+
+        &:after {
+            transform: rotate(35deg);
+        }
+    }
+}

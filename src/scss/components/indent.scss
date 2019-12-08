@@ -1,0 +1,17 @@
+.indent {
+    & + & {
+        margin-top: $p32;
+    }
+
+    & + .indent--small {
+        margin-top: $p16;
+    }
+
+    & + .indent--tight-top {
+        margin-top: $p8;
+    }
+
+    & + .indent--join-top {
+        margin-top: 0;
+    }
+}

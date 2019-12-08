@@ -1,0 +1,68 @@
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    font-size: $font-default-size;
+    line-height: $font-bigger-line;
+    transition: all 0.15s;
+    padding: $p8 $p32;
+    background-color: $color-white;
+    color: $color-primary;
+    border-radius: $border-radius;
+    text-decoration: none;
+
+    &:hover,
+    &.btn--primary:hover,
+    &.btn--secondary:hover,
+    &.btn--outline:hover {
+        background-color: $color-pink;
+        color: $color-white;
+        border-color: transparent;
+    }
+
+    &.btn--primary {
+        background-color: $color-primary;
+        color: $color-white;
+    }
+
+    &.btn--secondary {
+        background-color: transparent;
+        color: $color-white;
+        border-color: $color-white;
+    }
+
+    &.btn--outline {
+        background-color: transparent;
+        color: $color-secondary;
+        border-color: $color-secondary;
+    }
+
+    &.btn--small {
+        font-size: $font-small-size;
+        line-height: $font-small-line;
+    }
+
+    &.btn--indent-right {
+        margin-right: $p8;
+    }
+
+    &.btn--indent-left {
+        margin-left: $p8;
+    }
+
+    &.btn--indent-top {
+        margin-top: $p16;
+
+        @include media-md-up {
+            margin-top: 0;
+        }
+    }
+
+    &.btn--full {
+        display: block;
+    }
+}

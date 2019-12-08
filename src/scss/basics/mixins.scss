@@ -1,0 +1,30 @@
+// Media-queries
+@mixin media-hg-up {
+	@media screen and (min-width: $media-hg-up) {
+		@content;
+	}
+}
+
+@mixin media-xl-up { // původně media-bigscreen
+	@media screen and (min-width: $media-xl-up) {
+		@content;
+	}
+}
+
+@mixin media-lg-up { // původně media-desktop
+	@media screen and (min-width: $media-lg-up) {
+		@content;
+	}
+}
+
+@mixin media-md-up { // původně media-tablet-plus
+	@media screen and (min-width: $media-md-up) {
+		@content;
+	}
+}
+
+@mixin media-sm-up { // původně media-large-mobile-plus
+	@media screen and (min-width: $media-sm-up) {
+		@content;
+	}
+}

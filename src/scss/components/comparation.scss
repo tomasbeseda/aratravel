@@ -1,0 +1,60 @@
+/**
+ * Comparation table
+ */
+.comparation {
+    display: block;
+    table-layout: fixed;
+    width: 100%;
+    overflow: scroll;
+    box-shadow: none;
+}
+.comparation tbody {
+    display: block;
+    width: 300%;
+
+    @include media-md-up {
+        display: table-row-group;
+    }
+}
+.comparation tr {
+    display: table-row;
+
+    @include media-md-up {
+        border-bottom: 1px solid $color-basic-border;
+    }
+}
+.comparation tr:first-child {
+    border-top: 0;
+}
+.comparation td {
+    display: table-cell;
+    padding: $p56 $p16 $p16 $p16;
+    width: 100vw;
+    max-width: 100vw;
+
+    @include media-lg-up {
+        padding: 16px;
+    }
+}
+.comparation__fixed {
+    position: absolute;
+    vertical-align: top;
+    padding: $p8 $p16;
+    width: 90%;
+    box-sizing: border-box;
+    background-color: $color-secondary;
+
+    @include media-lg-up {
+        position: static;
+        padding: $p16;
+        width: 25%;
+        background-color: transparent;
+    }
+}
+.comparation__fixed--hidden {
+    visibility: hidden;
+
+    @include media-lg-up {
+        visibility: visible;
+    }
+}

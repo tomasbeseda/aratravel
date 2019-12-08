@@ -1,0 +1,134 @@
+h1.typo--heading,
+h2.typo--heading,
+h3.typo--heading,
+h4.typo--heading {
+    font-family: $heading-font;
+    font-weight: 500;
+}
+
+h1.typo--heading,
+.typo--heading-h1 {
+    font-size: $font-huge-size;
+    line-height: $font-huge-line;
+}
+
+h2.typo--heading,
+.typo--heading-h2 {
+    font-size: $font-large-size;
+    line-height: $font-large-line;
+}
+
+h3.typo--heading,
+.typo--heading-h3 {
+    font-size: $font-big-size;
+    line-height: $font-big-line;
+}
+
+h4.typo--heading,
+.typo--heading-h4 {
+    font-size: $font-bigger-size;
+    line-height: $font-bigger-line;
+}
+
+a,
+a.typo--link,
+.typo--link {
+    color: $color-brand;
+    text-decoration: underline;
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    &.typo--link-negative {
+        color: $color-white;
+    }
+
+    &.typo--link-reverted {
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &.typo--link-plain {
+        color: $color-body-main;
+        text-decoration: none;
+    }
+}
+
+.typo--smaller {
+    font-size: $font-smaller-size;
+    line-height: $font-smaller-line;
+}
+
+.typo--small {
+    font-size: $font-small-size;
+    line-height: $font-small-line
+}
+
+// Alignment
+.typo--align-left {
+    text-align: left !important;
+}
+
+.typo--align-center {
+    text-align: center !important;
+}
+
+.typo--align-right {
+    text-align: right !important;
+}
+
+.typo--align-left-md {
+    @include media-md-up {
+        text-align: left !important;
+    }
+}
+
+.typo--align-center-md {
+    @include media-md-up {
+        text-align: center !important;
+    }
+}
+
+.typo--align-right-md {
+    @include media-md-up {
+        text-align: right !important;
+    }
+}
+
+.typo--align-left-lg {
+    @include media-lg-up {
+        text-align: left !important;
+    }
+}
+
+.typo--align-center-lg {
+    @include media-lg-up {
+        text-align: center !important;
+    }
+}
+
+.typo--align-right-lg {
+    @include media-lg-up {
+        text-align: right !important;
+    }
+}
+
+.typo--color-white {
+    color: $color-white;
+}
+
+.typo--color-primary {
+    color: $color-primary;
+}
+
+.typo--color-secondary {
+    color: $color-secondary;
+}
+
+.typo--color-green {
+    color: $color-green;
+}

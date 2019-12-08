@@ -1,0 +1,87 @@
+/**
+ * Color definition
+ */
+
+/* Typo colors */
+$color-black:           #000;
+$color-body-main:       rgba(0,0,0,0.72);
+$color-white:           #fff;
+$color-brand:           #3eb8d7;
+
+/* Fill colors */
+$color-fill-black:      #000;
+$color-fill-gray:       #b6b5b5;
+$color-fill-light-gray: #f2f2f2;
+
+/* Other colors */
+$color-primary:         #3065b5;
+$color-secondary:       $color-brand;
+$color-pink:            #da83b6;
+$color-orange:          #f5991a;
+$color-gray:            #a2a2a2;
+$color-green:           #7ca600;
+$color-yellow:          #ffc800;
+
+/* Borders & shadows */
+$color-basic-border:      rgba(0,0,0,0.1);
+$color-border-negative:   rgba(255,255,255,0.3);
+$box-shadow:              0 1px 3px rgba(0,0,0,0.15);
+$border-radius:           4px;
+
+/**
+ * Spacing
+ */
+$page-container:        1300px;
+$section-padding:       20px;
+
+/**
+ * Font family
+ */
+$main-font:         'Helvetica', sans-serif;
+$heading-font:      'Casper', sans-serif;
+
+/**
+ * Font size
+ */
+$font-huge-size:    44px;
+$font-huge-line:    56px;
+
+$font-large-size:   32px;
+$font-large-line:   44px;
+
+$font-big-size:     25px;
+$font-big-line:     34px;
+
+$font-bigger-size:  20px;
+$font-bigger-line:  28px;
+
+$font-default-size: 16px;
+$font-default-line: 24px;
+
+$font-smaller-size: 14px;
+$font-smaller-line: 20px;
+
+$font-small-size:   12px;
+$font-small-line:   18px;
+
+/**
+ * Media queries breakpoints
+ */
+$media-hg-up:   1600px; // HG - Full HD screen
+$media-xl-up:   1300px; // XL - bigscreen
+$media-lg-up:   992px;  // LG - desktop
+$media-md-up:   768px;  // MD - tablet
+$media-sm-up:   480px;  // SM - large mobile
+
+/**
+ * Spacing
+ */
+$p4:    4px;
+$p8:    8px;
+$p16:   16px;
+$p24:   24px;
+$p32:   32px;
+$p56:   56px;
+$p64:   64px;
+
+$grid-gutter:    8px;

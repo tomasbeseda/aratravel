@@ -1,0 +1,13 @@
+.media {
+    background-color: $color-primary;
+    color: $color-white;
+
+    .media__content {
+        display: flex;
+        align-items: center;
+        min-height: 580px;
+        margin: 0 auto;
+        padding: 0 $section-padding;
+        max-width: $page-container;
+    }
+}

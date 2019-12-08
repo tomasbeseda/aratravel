@@ -1,0 +1,20 @@
+.layout {
+    padding: $p64 0;
+
+    &.layout--bright {
+        background-color: $color-white;
+    }
+
+    &.layout--join-top {
+        padding-top: 0;
+    }
+
+    &.layout--join-bottom {
+        padding-bottom: 0;
+    }
+
+    .layout__width {
+        margin: 0 auto;
+        max-width: $page-container;
+    }
+}
